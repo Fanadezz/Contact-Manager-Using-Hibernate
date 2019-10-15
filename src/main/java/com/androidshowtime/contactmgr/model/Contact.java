@@ -72,19 +72,16 @@ public class Contact {
     }
 
 
-
-
     @Override
     public String toString() {
         return "Contact{" +
                 "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", phone=" + phone +
+                ", firstName = '" + firstName + '\'' +
+                ", lastName = '" + lastName + '\'' +
+                ", email = '" + email + '\'' +
+                ", phone = " + phone +
                 '}';
     }
-
 
     public static class ContactBuilder{
         private String firstName;
